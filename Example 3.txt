@@ -1,0 +1,13 @@
+Example 3
+
+temperature = 20
+if temperature >= 30:
+    print("It's a hot day!")
+else:
+    print("It's not a hot day.")
+
+
+
+
+Output
+It's not a hot day.

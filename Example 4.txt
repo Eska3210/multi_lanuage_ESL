@@ -1,0 +1,17 @@
+Example 4 
+
+We will now do a simple problem (Determining a voters age)  requiring an if and else statement.
+
+
+
+age = int(input("Enter your age: "))
+if age >= 18:
+   print("You are eligible to vote.")
+else:
+   print("You are not eligible to vote yet.")
+
+
+
+Output
+Enter your age: 24
+You are eligible to vote.
