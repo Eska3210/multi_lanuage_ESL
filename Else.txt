@@ -1,8 +1,8 @@
-Else
-The else keyword catches anything which isn't caught by the preceding conditions.
+#Else
+#The else keyword catches anything which isn't caught by the preceding conditions.
 
 
-Example 2 
+#Example 2 
 
 
 a = 100
@@ -15,6 +15,6 @@ else:
 
 
 
-Output
-a is greater than b
+#Output
+#a is greater than b
 
