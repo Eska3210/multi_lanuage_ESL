@@ -138,7 +138,7 @@ def process_student_results(students_data):
             min_score, max_score, score_range = calculate_min_max_range(student_scores)
             
             # Determine if the student passed or failed
-            pass_fail = "Congratulations, you passed!" if average >= 60 else "Fail"
+            pass_fail = "Congratulations, you passed!" if average >= 70 else "Fail"
             
             # Create a dictionary with the student's data and calculated results
             student_results = {
