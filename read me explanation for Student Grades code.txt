@@ -1,0 +1,20 @@
+Detailed Comments:
+read_student_data(filename):
+
+Opens the filename CSV file and reads each student's data (name and scores). It checks for missing or invalid data, processes each row, and stores the results in a list of dictionaries.
+calculate_average(student):
+
+Calculates the average score for a student by summing their scores for math, science, and English and dividing by 3.
+assign_grade(score):
+
+Assigns a letter grade based on the given score using predefined grade ranges.
+process_student_results(students_data):
+
+Processes each student's data, calculates their average score, assigns a grade, and stores the results for each student in a dictionary. This is returned as a list.
+write_results_to_csv(results, filename):
+
+Writes the processed student results (name, scores, average, and grades) to a new CSV file (student_results.csv).
+Final Steps:
+Ensure the students.csv file is correctly formatted.
+Run the code: It will process the student data, calculate averages, assign grades, and then write the results to student_results.csv.
+The output CSV file will contain each student’s name, individual subject scores, their average score, and grades for both the average and individual subjects.
